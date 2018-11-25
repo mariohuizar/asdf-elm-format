@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+versions_list=(
+  0.5.2
+  0.6.0-alpha
+  0.6.0-alpha.1
+  0.6.0-alpha.2
+  0.6.0-alpha.3
+  0.6.0-alpha.4
+  0.6.0-alpha.5
+  0.6.0-alpha.6
+  0.6.1-alpha
+  0.7.0-exp
+  0.8.0-alpha-elm019rc1-rc1
+  0.8.0-alpha-elm019rc1-rc2
+  0.8.0-rc3
+  0.8.0
+  0.8.1-rc1
+  0.8.1-rc2
+  0.8.1
+)
+
+versions=""
+
+for version in "${versions_list[@]}"
+do
+  versions="${versions} ${version}"
+done
+
+echo $versions
