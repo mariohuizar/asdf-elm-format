@@ -6,7 +6,7 @@ version manager.
 ## Install
 
 ```
-asdf plugin-add elm https://github.com/mariohuizar/asdf-elm-format.git
+asdf plugin-add elm-format https://github.com/mariohuizar/asdf-elm-format.git
 ```
 
 ## Use
